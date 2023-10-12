@@ -1,0 +1,27 @@
+{
+  "name": "meilunzhi/webman-validate",
+  "description": "The webman Validate Package",
+  "license": "mit",
+  "authors": [
+    {
+      "name": "lunzi1989",
+      "email": "378400622@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0",
+    "symfony/polyfill-php80": "^1.19",
+    "symfony/translation": "^5.4|^6.0"
+  },
+  "require-dev": {
+    "workerman/webman-framework": "^1.2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "meilunzhi\\validate\\": "src/"
+    },
+    "files": [
+      "src/helper.php"
+    ]
+  }
+}
